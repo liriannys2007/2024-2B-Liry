@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+:root{
+    --cor-primaria: ;
+    --cor-secundaria: ;
+    --cor-tercearia: ;
+    --cor-quaternaria: ;
+    --cor-quinaria: ;
+    --cor-senaria: ;
+}
+
+body{
+    background-color: rgb(91, 124, 15);
+    color:lawngreen;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-um:
+    --cor-dois:
+    --cor-tres:
+    --cor-quatro:
+    --cor-cinco:
+    --texto-capa:
+    --texto-titulo:
+}
+
+body{
+    background-color: rgb(100, 55, 7);
+    color: azure;
+}
