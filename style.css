@@ -69,6 +69,12 @@ body{
 
 }
 
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .principal-capa__conteudo{
     display: flex;
     flex-direction: column;
@@ -103,7 +109,7 @@ body{
 .botão__secundario{
     background-color: transparent;
     border: 2px solid var(--cor-dois);
-    color: var(--cor-um);
+    color: var(--cor-dois);
 }
 .propaganda{
     display: grid;
@@ -115,13 +121,13 @@ body{
 
 .propaganda__imagem{
     margin-left: 20%;
-    width: 50%;
+    width: 30%;
 }
 
 .propaganda__titulo{
     font-family: var(--texto-titulo);
     font-size: 48px;
-    color: var(--cor-quaternaria);
+    color: var(--cor-cinco);
 }
 
 .propaganda__titulo:hover{
@@ -132,4 +138,9 @@ body{
 .propaganda__texto{
     font-size: 24px;
     color: var(--cor-quaternaria);
+}
+
+.propaganda02{
+    display: flex;
+    flex-direction: column;
 }
